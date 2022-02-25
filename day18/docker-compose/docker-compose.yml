@@ -1,0 +1,31 @@
+#virable
+version: "3"
+services:
+  # server name ,and the server can be check in the same net work
+#  consul:
+#    #explain use images address
+#    image: consul
+#    ports:
+#      - "8500:8500"
+  jaeger:
+    image: cap1573/jaeger
+    ports:
+      - "6831:6831/udp"
+      - "16686:16686"
+  histrix-dashboard:
+    image: mlabouardy/hystrix-dashboard
+    ports:
+      - "9002:9002"
+  #histrix view board
+  prometheus:
+    image: cap1573/prometheus
+    # reflect the out yml file to the container
+    volumes:
+    - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+    - "9090:9090"
+  #histrix view borad of grafana
+  grafana:
+    image: cap1573/grafana
+    ports:
+    - "3000:3000"

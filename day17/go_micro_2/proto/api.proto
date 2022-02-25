@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+message CallRquest{
+  string name=1;
+}
+message CallResponse{
+  string message =2;
+}
+service Example{
+  rpc Call(CallRquest)returns(CallResponse){}
+}
+
+message EmptyRquest{}
+
+message EmptyResponse{}
+
+
+service Foo{
+  rpc Bar(EmptyRquest)returns(EmptyResponse){}
+}

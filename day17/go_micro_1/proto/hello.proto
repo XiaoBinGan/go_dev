@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+//construct
+message InfoRequest{
+  string  username =1;
+}
+
+message InfoRespones{
+  string msg = 2;
+}
+
+//interface
+service Hello{
+  rpc Info(InfoRequest)returns(InfoRespones){}
+}

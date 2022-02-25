@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7316e4b6-c06a-4eb6-9601-06fa38575fff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/go_dev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent1/conf/conf.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent1/conf/conf.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent1/kafka/kafka.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent1/logAgent" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent1/my.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent1/taillog/tail.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent2/conf/conf.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent2/conf/conf.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent2/etcd/etcd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent2/kafka/kafka.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent2/logAgent" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent2/my.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day12/logAgent2/taillog/tail.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day14/go_gin_template01/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day14/go_gin_template01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day14/go_gin_template01/temp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day14/go_gin_template02/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day14/go_gin_template02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_gomicro.com/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Golang.md/Nsq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Golang.md/flag.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Golang.md/mySQLX.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Golang.md/mysql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Golang.md/net&amp;http.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Golang.md/网络编程.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day10/mysql_select/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../day10/mysql_select/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11/tail/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../day11/tail/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12/context/mian.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/context/mian.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12/etcd_con/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/etcd_con/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12/etcd_example/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/etcd_example/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12/kafka_consumer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/kafka_consumer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day4/map/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/map/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day8/test/student.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../day8/test/student.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day9/redis_pool/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../day9/redis_pool/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/opt/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1q9UqUH1Roi1XltE52KeXqDoIwy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/proto" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="user" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-826" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616743934840">
+      <screen x="-1920" y="-133" width="1920" height="1080" />
+    </state>
+    <state x="-826" y="216" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-133.1920.1080/0.0.1440.900@-1920.-133.1920.1080" timestamp="1616743934840" />
+    <state x="483" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1616657722960">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="483" y="163" key="#com.intellij.ide.util.MemberChooser/-1920.-133.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1616657722960" />
+    <state x="-1577" y="728" key="EnvironmentVariablesDialog" timestamp="1616504901458">
+      <screen x="-3440" y="0" width="3440" height="1440" />
+    </state>
+    <state x="-1577" y="728" key="EnvironmentVariablesDialog/-3440.0.3440.1440/0.0.1680.1050@-3440.0.3440.1440" timestamp="1616504901458" />
+    <state width="1878" height="344" key="GridCell.Tab.0.bottom" timestamp="1616820940744">
+      <screen x="-3440" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1878" height="344" key="GridCell.Tab.0.bottom/-3440.0.3440.1440/0.0.1680.1050@-3440.0.3440.1440" timestamp="1616820940744" />
+    <state width="1878" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1616714475819" />
+    <state width="1878" height="344" key="GridCell.Tab.0.bottom/44.23.1876.1177@44.23.1876.1177" timestamp="1616714405575" />
+    <state width="1878" height="344" key="GridCell.Tab.0.center" timestamp="1616820940743">
+      <screen x="-3440" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1878" height="344" key="GridCell.Tab.0.center/-3440.0.3440.1440/0.0.1680.1050@-3440.0.3440.1440" timestamp="1616820940743" />
+    <state width="1878" height="344" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1616714475818" />
+    <state width="1878" height="344" key="GridCell.Tab.0.center/44.23.1876.1177@44.23.1876.1177" timestamp="1616714405573" />
+    <state width="1878" height="344" key="GridCell.Tab.0.left" timestamp="1616820940743">
+      <screen x="-3440" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1878" height="344" key="GridCell.Tab.0.left/-3440.0.3440.1440/0.0.1680.1050@-3440.0.3440.1440" timestamp="1616820940743" />
+    <state width="1878" height="344" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1616714475817" />
+    <state width="1878" height="344" key="GridCell.Tab.0.left/44.23.1876.1177@44.23.1876.1177" timestamp="1616714405572" />
+    <state width="1878" height="344" key="GridCell.Tab.0.right" timestamp="1616820940744">
+      <screen x="-3440" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1878" height="344" key="GridCell.Tab.0.right/-3440.0.3440.1440/0.0.1680.1050@-3440.0.3440.1440" timestamp="1616820940744" />
+    <state width="1878" height="344" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1616714475819" />
+    <state width="1878" height="344" key="GridCell.Tab.0.right/44.23.1876.1177@44.23.1876.1177" timestamp="1616714405575" />
+    <state x="-1959" y="498" key="SettingsEditor" timestamp="1616506761941">
+      <screen x="-3440" y="0" width="3440" height="1440" />
+    </state>
+    <state x="-1959" y="498" key="SettingsEditor/-3440.0.3440.1440/0.0.1680.1050@-3440.0.3440.1440" timestamp="1616506761941" />
+  </component>
+</project>

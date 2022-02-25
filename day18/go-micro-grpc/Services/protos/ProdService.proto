@@ -1,0 +1,22 @@
+syntax = "proto3";
+package Services;
+
+import "Models.proto";
+option go_package="protos/";
+message ProdsRequest{
+  int32 size =1;
+}
+
+message ProdListResponse{
+  repeated ProdModel data =1;
+}
+service ProdService{
+  rpc GetProdsList(ProdsRequest)returns(ProdListResponse);
+}
+
+/**
+ protoc --proto_path=. --micro_out=Mproto/imports/api.proto=github.com/micro/go-micro/v2/api/proto:.
+        --go_out=Mproto/imports/api.proto=github.com/micro/go-micro/v2/api/proto:.
+        proto/hello/hello.proto
+ */
+

@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 15m   #the default collect time
+  external_labels:    #外部标签
+    monitor: "go-micro-monitor"
+scrape_configs:
+  # monitor service
+  - job_name: "order"  #name
+    scrape_interval: 5s #cover the default values
+    static_configs:  #the database  out host
+      - targets: ["192.168.8.108:9092"]   #this ip is you ifconfig then got.

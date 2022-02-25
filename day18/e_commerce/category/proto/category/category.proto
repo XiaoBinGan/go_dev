@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+package go.micro.service.category;
+
+service Category {
+   rpc CreateCategory(CategoryRequest)returns(CreateCategoryResponse){}
+   rpc UpdateCategory(CategoryRequest)returns(UpdateCategoryResponse){}
+   rpc DeleteCategory(DeleteCategoryRequest)returns(DeleteCategoryResponse){}
+   rpc FindCategoryByName(FindByNameRequest)returns(CategoryResponse){}
+   rpc FindCategoryByID(FindByIDRequest)returns(CategoryResponse){}
+   rpc FindCategoryByLevel(FindByLevelRequest)returns(FindAllResponse){}
+   rpc FindCategoryByParent(FindByParentRequest)returns(FindAllResponse){}
+   rpc FindAllCategory(FindAllRequest)returns(FindAllResponse){}
+}
+message CategoryRequest {
+  string category_name =1;
+  uint32 category_level =2;//UInt32值类型表示其值范围从0到4294967295的无符号整数。
+  int64 category_parent= 3;//整数数据类型
+  string category_image =4;//url
+  string category_description =5;//分类描述
+}
+//create and update all use this one
+message CreateCategoryResponse{
+  string message = 1;
+  int64 category_id=2;
+}
+//update Category
+message UpdateCategoryResponse{
+  string message=1;
+}
+message DeleteCategoryRequest{
+  int64 category_id=1;
+}
+message DeleteCategoryResponse{
+  string message= 1;
+}
+message FindByNameRequest{
+  string category_name=1;
+}
+//common category response
+message CategoryResponse{
+  int64 id=1;
+  string category_name =2;
+  uint32 category_level =3;//UInt32值类型表示其值范围从0到4294967295的无符号整数。
+  int64 category_parent= 4;//整数数据类型
+  string category_image =5;//url
+  string category_description =6;//分类描述
+}
+message FindByIDRequest{
+  int64 category_id =1;
+}
+message FindByLevelRequest{
+  uint32 level =1;
+}
+message FindByParentRequest{
+  int64 parent_id=1;
+}
+message FindAllRequest{
+
+}
+message FindAllResponse{
+  repeated CategoryResponse category=1;
+}

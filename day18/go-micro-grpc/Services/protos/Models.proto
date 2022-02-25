@@ -1,0 +1,11 @@
+syntax="proto3";
+
+package Services;
+option go_package="protos/Models";
+message ProdModel{
+  //go get -u github.com/favadi/protoc-go-inject-tag 使用这个控件注释的方式修改生成的json tag
+  //@inject_tag:json:"pid"
+  int32 ProdId =1;
+  //@inject_tag:json:"pname"
+  string ProdName=2;
+}

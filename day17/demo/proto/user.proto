@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+package pb;
+
+//defind struct
+message User{
+  int32  id =1;
+  string name=2;
+  string address = 3;
+  string phone = 4;
+
+}
+//insertUserReq
+
+message InsertUserReq{
+  int32  id =1;
+  string name=2;
+  string address = 3;
+  string phone = 4;
+}
+message InsertUserRep{
+  int32  id =1;
+  string name=2;
+  string address = 3;
+  string phone = 4;
+}
+message DeleteUerReq{
+  int32 id =1;
+}
+message DeleteUserRep{
+  int32 id=1;
+}
+
+message ModifyUserReq{
+  int32 id=1;
+  string name=2;
+  string address=3;
+  string phone=4;
+}
+message ModifyUserRep{
+
+}
+
+message SelectUserReq{
+  int32 id =1;
+}
+message SelectUserRep{
+  User users =1;
+}
+
+//defind function
+service UserService{
+  //add
+  rpc InserUser(InsertUserReq)returns(InsertUserRep);
+  //delete
+  rpc DeleteUser(DeleteUerReq)returns(DeleteUserRep);
+  //modify
+  rpc ModifyUser(ModifyUserReq)returns(ModifyUserRep);
+  //select
+  rpc SelectUser(SelectUserReq)returns(SelectUserRep);
+
+}

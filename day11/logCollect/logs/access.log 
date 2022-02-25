@@ -1,0 +1,201 @@
+2020/09/03 21:42:56.869 [D]  log intiallize success
+2020/09/03 21:42:56.872 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:37 version:1 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 21:42:56.872 [D]  etcd intiallize success
+2020/09/03 21:42:56.872 [D]  tailf intiallize success
+2020/09/03 21:42:56.872 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 21:42:56.873 [D]  init kafka succ 
+2020/09/03 21:42:56.873 [D]  kafka intiallize success
+2020/09/03 21:43:29.551 [D]  get config ftom etcg, PUT "/logagent/config/192.168.1.3" "[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]"
+
+2020/09/03 21:43:29.551 [D]  get config from etcd suc,[{/Users/wujiahao/study&demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log nginx_log} {/Users/wujiahao/study&demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log nginx_log} {/Users/wujiahao/study&demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log nginx_log_err}]
+2020/09/03 21:56:40.275 [D]  log intiallize success
+2020/09/03 21:56:40.278 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:38 version:2 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 21:56:40.279 [D]  etcd intiallize success
+2020/09/03 21:56:40.279 [D]  tailf intiallize success
+2020/09/03 21:56:40.279 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 21:56:40.280 [D]  init kafka succ 
+2020/09/03 21:56:40.280 [D]  kafka intiallize success
+2020/09/03 21:56:40.280 [D]  test for logger 1
+2020/09/03 21:56:41.280 [D]  test for logger 2
+2020/09/03 21:56:42.282 [D]  test for logger 3
+2020/09/03 21:56:43.282 [D]  test for logger 4
+2020/09/03 21:56:44.284 [D]  test for logger 5
+2020/09/03 21:56:45.287 [D]  test for logger 6
+2020/09/03 21:56:46.288 [D]  test for logger 7
+2020/09/03 21:56:47.290 [D]  test for logger 8
+2020/09/03 21:56:48.295 [D]  test for logger 9
+2020/09/03 21:56:49.300 [D]  test for logger 10
+2020/09/03 21:56:50.303 [D]  test for logger 11
+2020/09/03 21:56:51.306 [D]  test for logger 12
+2020/09/03 21:56:52.308 [D]  test for logger 13
+2020/09/03 21:56:53.311 [D]  test for logger 14
+2020/09/03 21:56:54.313 [D]  test for logger 15
+2020/09/03 21:56:55.315 [D]  test for logger 16
+2020/09/03 21:56:56.315 [D]  test for logger 17
+2020/09/03 21:56:57.316 [D]  test for logger 18
+2020/09/03 21:56:58.319 [D]  test for logger 19
+2020/09/03 21:56:59.321 [D]  test for logger 20
+2020/09/03 21:57:00.324 [D]  test for logger 21
+2020/09/03 21:57:01.325 [D]  test for logger 22
+2020/09/03 21:57:02.327 [D]  test for logger 23
+2020/09/03 21:57:03.328 [D]  test for logger 24
+2020/09/03 21:57:04.330 [D]  test for logger 25
+2020/09/03 21:57:05.334 [D]  test for logger 26
+2020/09/03 21:57:06.337 [D]  test for logger 27
+2020/09/03 21:57:07.337 [D]  test for logger 28
+2020/09/03 21:57:08.339 [D]  test for logger 29
+2020/09/03 21:57:09.339 [D]  test for logger 30
+2020/09/03 21:57:10.340 [D]  test for logger 31
+2020/09/03 21:57:11.344 [D]  test for logger 32
+2020/09/03 21:57:12.343 [D]  test for logger 33
+2020/09/03 21:57:13.347 [D]  test for logger 34
+2020/09/03 21:57:14.350 [D]  test for logger 35
+2020/09/03 21:57:15.353 [D]  test for logger 36
+2020/09/03 21:57:16.358 [D]  test for logger 37
+2020/09/03 21:57:17.358 [D]  test for logger 38
+2020/09/03 21:57:18.362 [D]  test for logger 39
+2020/09/03 21:57:19.362 [D]  test for logger 40
+2020/09/03 21:57:20.364 [D]  test for logger 41
+2020/09/03 21:57:21.366 [D]  test for logger 42
+2020/09/03 21:57:22.366 [D]  test for logger 43
+2020/09/03 21:57:23.370 [D]  test for logger 44
+2020/09/03 21:59:21.349 [D]  log intiallize success
+2020/09/03 21:59:21.354 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:38 version:2 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 21:59:21.354 [D]  etcd intiallize success
+2020/09/03 21:59:21.354 [D]  tailf intiallize success
+2020/09/03 21:59:21.354 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 21:59:21.355 [D]  init kafka succ 
+2020/09/03 21:59:21.355 [D]  kafka intiallize success
+2020/09/03 21:59:21.355 [D]  test for logger 1
+2020/09/03 21:59:38.352 [D]  log intiallize success
+2020/09/03 21:59:38.355 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:38 version:2 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 21:59:38.355 [D]  etcd intiallize success
+2020/09/03 21:59:38.355 [D]  tailf intiallize success
+2020/09/03 21:59:38.356 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 21:59:38.357 [D]  init kafka succ 
+2020/09/03 21:59:38.357 [D]  kafka intiallize success
+2020/09/03 21:59:38.357 [D]  test for logger 1
+2020/09/03 22:00:45.605 [D]  log intiallize success
+2020/09/03 22:00:45.608 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:38 version:2 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:00:45.608 [D]  etcd intiallize success
+2020/09/03 22:00:45.608 [D]  tailf intiallize success
+2020/09/03 22:00:45.609 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:00:45.610 [D]  init kafka succ 
+2020/09/03 22:00:45.610 [D]  kafka intiallize success
+2020/09/03 22:00:45.610 [D]  test for logger 1
+2020/09/03 22:09:35.752 [D]  log intiallize success
+2020/09/03 22:09:35.756 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:38 version:2 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:09:35.756 [D]  etcd intiallize success
+2020/09/03 22:09:35.756 [D]  tailf intiallize success
+2020/09/03 22:09:35.756 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:09:35.757 [D]  init kafka succ 
+2020/09/03 22:09:35.757 [D]  kafka intiallize success
+2020/09/03 22:09:35.757 [D]  test for logger 1
+2020/09/03 22:13:29.333 [D]  log intiallize success
+2020/09/03 22:13:29.336 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:38 version:2 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:13:29.337 [D]  etcd intiallize success
+2020/09/03 22:13:29.337 [D]  tailf intiallize success
+2020/09/03 22:13:29.337 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:13:29.338 [D]  init kafka succ 
+2020/09/03 22:13:29.338 [D]  kafka intiallize success
+2020/09/03 22:13:29.338 [D]  test for logger 1
+2020/09/03 22:14:40.122 [D]  log intiallize success
+2020/09/03 22:14:40.125 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:39 version:3 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:14:40.125 [D]  etcd intiallize success
+2020/09/03 22:14:40.125 [D]  tailf intiallize success
+2020/09/03 22:14:40.126 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:14:40.127 [D]  init kafka succ 
+2020/09/03 22:14:40.127 [D]  kafka intiallize success
+2020/09/03 22:14:40.127 [D]  test for logger 1
+2020/09/03 22:14:56.448 [D]  log intiallize success
+2020/09/03 22:14:56.452 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:39 version:3 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:14:56.452 [D]  etcd intiallize success
+2020/09/03 22:14:56.452 [D]  tailf intiallize success
+2020/09/03 22:14:56.452 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:14:56.453 [D]  init kafka succ 
+2020/09/03 22:14:56.453 [D]  kafka intiallize success
+2020/09/03 22:14:56.453 [D]  test for logger 1
+2020/09/03 22:14:59.252 [D]  log intiallize success
+2020/09/03 22:14:59.255 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:39 version:3 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:14:59.255 [D]  etcd intiallize success
+2020/09/03 22:14:59.255 [D]  tailf intiallize success
+2020/09/03 22:14:59.255 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:14:59.256 [D]  init kafka succ 
+2020/09/03 22:14:59.256 [D]  kafka intiallize success
+2020/09/03 22:14:59.256 [D]  test for logger 1
+2020/09/03 22:15:01.887 [D]  log intiallize success
+2020/09/03 22:15:01.891 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:39 version:3 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:15:01.891 [D]  etcd intiallize success
+2020/09/03 22:15:01.891 [D]  tailf intiallize success
+2020/09/03 22:15:01.891 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:15:01.892 [D]  init kafka succ 
+2020/09/03 22:15:01.892 [D]  kafka intiallize success
+2020/09/03 22:15:01.892 [D]  test for logger 1
+2020/09/03 22:15:04.077 [D]  log intiallize success
+2020/09/03 22:15:04.081 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:39 version:3 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:15:04.081 [D]  etcd intiallize success
+2020/09/03 22:15:04.081 [D]  tailf intiallize success
+2020/09/03 22:15:04.081 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:15:04.082 [D]  init kafka succ 
+2020/09/03 22:15:04.082 [D]  kafka intiallize success
+2020/09/03 22:15:04.082 [D]  test for logger 1
+2020/09/03 22:16:04.402 [D]  log intiallize success
+2020/09/03 22:16:04.406 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:39 version:3 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:16:04.406 [D]  etcd intiallize success
+2020/09/03 22:16:04.406 [D]  tailf intiallize success
+2020/09/03 22:16:04.406 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:16:04.408 [D]  init kafka succ 
+2020/09/03 22:16:04.408 [D]  kafka intiallize success
+2020/09/03 22:16:04.408 [D]  test for logger 1
+2020/09/03 22:17:01.974 [D]  log intiallize success
+2020/09/03 22:17:01.977 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:39 version:3 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:17:01.977 [D]  etcd intiallize success
+2020/09/03 22:17:01.978 [D]  tailf intiallize success
+2020/09/03 22:17:01.978 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:17:01.979 [D]  init kafka succ 
+2020/09/03 22:17:01.979 [D]  kafka intiallize success
+2020/09/03 22:17:01.979 [D]  test for logger 1
+2020/09/03 22:17:27.616 [D]  log intiallize success
+2020/09/03 22:17:27.620 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:39 version:3 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:17:27.620 [D]  etcd intiallize success
+2020/09/03 22:17:27.620 [D]  tailf intiallize success
+2020/09/03 22:17:27.620 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:17:27.621 [D]  init kafka succ 
+2020/09/03 22:17:27.621 [D]  kafka intiallize success
+2020/09/03 22:17:44.387 [D]  log intiallize success
+2020/09/03 22:17:44.391 [D]  resp from etcd:[key:"/logagent/config/192.168.1.3" create_revision:37 mod_revision:39 version:3 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/03 22:17:44.391 [D]  etcd intiallize success
+2020/09/03 22:17:44.391 [D]  tailf intiallize success
+2020/09/03 22:17:44.391 [D]  bengin watch key:/logagent/config/192.168.1.3
+2020/09/03 22:17:44.392 [D]  init kafka succ 
+2020/09/03 22:17:44.392 [D]  kafka intiallize success
+2020/09/04 10:12:08.335 [D]  log intiallize success
+2020/09/04 10:12:08.358 [D]  resp from etcd:[key:"/logagent/config/172.25.1.149" create_revision:32 mod_revision:32 version:1 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/04 10:12:08.358 [D]  etcd intiallize success
+2020/09/04 10:12:08.359 [D]  tailf intiallize success
+2020/09/04 10:12:08.359 [D]  bengin watch key:/logagent/config/172.25.1.149
+2020/09/04 10:12:08.361 [D]  init kafka succ 
+2020/09/04 10:12:08.361 [D]  kafka intiallize success
+2020/09/04 10:13:54.706 [D]  log intiallize success
+2020/09/04 10:13:54.710 [D]  resp from etcd:[key:"/logagent/config/172.25.1.149" create_revision:32 mod_revision:32 version:1 value:"[{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"/Users/wujiahao/study\\u0026demo/GO/package/src/go_dev/day11/logCollect/logs/nginx_err.log\",\"topic\":\"nginx_log_err\"}]" ]
+2020/09/04 10:13:54.710 [D]  etcd intiallize success
+2020/09/04 10:13:54.710 [D]  tailf intiallize success
+2020/09/04 10:13:54.710 [D]  bengin watch key:/logagent/config/172.25.1.149
+2020/09/04 10:13:54.711 [D]  init kafka succ 
+2020/09/04 10:13:54.711 [D]  kafka intiallize success
+2020/09/04 10:26:19.562 [D]  log intiallize success
+2020/09/04 10:26:19.565 [D]  resp from etcd:[]
+2020/09/04 10:26:19.565 [D]  etcd intiallize success
+2020/09/04 10:26:19.566 [E]  invalid config for log collect,conf:[]
+2020/09/04 10:26:19.566 [D]  tailf intiallize success
+2020/09/04 10:26:19.566 [D]  bengin watch key:/Users/wujiahao/study&demo/GO/package/src/go_dev/day11/logCollect/logagent/config/172.25.1.149
+2020/09/04 10:26:19.567 [D]  init kafka succ 
+2020/09/04 10:26:19.567 [D]  kafka intiallize success
+2020/09/04 10:53:59.537 [D]  log intiallize success
+2020/09/04 10:53:59.540 [D]  resp from etcd:[]
+2020/09/04 10:53:59.540 [D]  etcd intiallize success
+2020/09/04 10:53:59.540 [E]  invalid config for log collect,conf:[]
+2020/09/04 10:53:59.540 [D]  tailf intiallize success
+2020/09/04 10:53:59.541 [D]  bengin watch key:/Users/wujiahao/study&demo/GO/package/src/go_dev/day11/logCollect/logagent/config/172.25.1.149
+2020/09/04 10:53:59.541 [D]  init kafka succ 
+2020/09/04 10:53:59.541 [D]  kafka intiallize success
