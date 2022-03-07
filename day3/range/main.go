@@ -3,7 +3,7 @@ import "fmt"
 func main (){
 	str :="hellow wordl,中国"
 	for i,v := range str {
-		fmt.Printf("i[%d] v[%c] len[%d]",i,v,len([]byte(string(v))))
+		fmt.Printf("i[%d] v[%c] len[%d] \n",i,v,len([]byte(string(v))))
 	}
 }
 //range的使用类似于each 

@@ -22,7 +22,14 @@ func f(n uint64) uint64 {
 	return n*f(n-1)
 }
 
+func f1(n int) int{
+	if n<1 {
+		return 1
+	}
+	return n*f1(n-1)
+}
+
 func main() {
-	res  :=f(4)
+	res  :=f1(9)
 	fmt.Println(res)
 }

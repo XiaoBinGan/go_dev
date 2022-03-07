@@ -10,6 +10,6 @@ func main() {
 	// fmt.Println(a)
 	fmt.Printf("%d \n",a)
 	modify(&a)
-	// fmt.Println(a)
+	fmt.Println(a)
 	fmt.Printf("%#v \n",&a)
 }

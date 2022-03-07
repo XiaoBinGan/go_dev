@@ -1,6 +1,6 @@
 package main
 import "fmt"
-
+//流程控制
 func control(){
 	str :="hello world,中国"
 	for i,v := range str {

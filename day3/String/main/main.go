@@ -1,8 +1,8 @@
 package main
 
 import (
-	"strings"
 	"fmt"
+	"strings"
 )
 func urlProcess (url string) string {
 	result :=strings.HasPrefix(url,"https://")//是否以什么字符串开头 返回值Boolean
@@ -23,7 +23,8 @@ func main() {
 		url string
 		path string
 	)
-	fmt.Scanf("%s%s",&url,&path)//未解释的字节的字符串或切片 &表示传入值得地址
+	fmt.Scanf("%s%s",&url)//未解释的字节的字符串或切片 &表示传入值得地址
+	fmt.Scanf("%s%s",&path)//未解释的字节的字符串或切片 &表示传入值得地址
 	url=urlProcess(url)
 	path=pathProcess(path)
 

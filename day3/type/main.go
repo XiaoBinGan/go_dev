@@ -20,5 +20,6 @@ func main()  {
 	c :=add
 	// fmt.Printf("",&c)
 	sum := test(c,12,34)
-	fmt.Printf("%d /n",sum)	
+	fmt.Printf("%d  \n",sum)
 }
+

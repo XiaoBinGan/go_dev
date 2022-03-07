@@ -1,8 +1,8 @@
 package main
 
 import (
-	"sort"
 	"fmt"
+	"sort"
 )
 /**
 1. map简介
@@ -21,12 +21,12 @@ func testMap()  {//最好估算好容量避免程序在运行期间动态扩容
 	 a["qwe"]="123"
 	 a["qwe"]="123"
 	 a["qwe"]="143"
-	 fmt.Println(a)
+	 fmt.Printf("map的申明方式1:%#v\n",a)
 	 var b =map[string]string{//map的申明方式2
 		 "name":"张三",
 	 }
 	 b["user"]="admin"
-	 fmt.Println(b)
+	fmt.Printf("map的申明方式2:%#v\n",b)
      //申明一个值为map的变量 map使用必须初始化 不然会报Panic
 	 c :=make(map[string]map[string]string,10)
 	 //当值为一个map的时候一定要注意初始化之后再去使用
@@ -39,8 +39,8 @@ func testMap()  {//最好估算好容量避免程序在运行期间动态扩容
 	 c["demo2"]=make(map[string]string)
 	 c["demo2"]["demo_1"]="str1"
 	 c["demo2"]["demo_2"]="str2"
-	 fmt.Println(len(c))
-	 fmt.Println(c)
+	fmt.Printf("map的申明方式2的长度:%#d\n",len(c))
+	fmt.Printf("map的申明方式2的值:%#v\n",c)
 
 
 
@@ -99,6 +99,6 @@ func mapreserve()  {
 
 func main() {
 	testMap()
-	mapsort()
-	mapreserve()
+	//mapsort()
+	//mapreserve()
 }

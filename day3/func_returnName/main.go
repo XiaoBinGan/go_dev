@@ -14,11 +14,11 @@ func rud(a,b int)(e ,f int){ //返回类型定义成具体参数名+类型的时
 }
 
 func main() {
-	fmt.Printf("%d \n",add(12,34))	
+	fmt.Printf("add:%d\n",add(12,34))
 	
 	
 	
 	e,_ :=rud(12,23) //暂时用不上的值可以使用_暂时
-	fmt.Printf("%d\n",e)	
+	fmt.Printf("rund:%d\n",e)
 	
 }
