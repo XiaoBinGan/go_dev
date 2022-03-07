@@ -31,7 +31,6 @@ func array() {
 									{1,2,3},
 									{4,5,6}}
 	for _, v := range arr{
-
 		for _, row := range v {
 			fmt.Println(row,"_")
 		}
@@ -45,6 +44,6 @@ func array() {
 
 
 func main() {
-	feibo(10)
+	//feibo(10)
 	array()
 }

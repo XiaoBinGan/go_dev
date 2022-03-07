@@ -3,14 +3,16 @@ package main
  闭包的实际意义就是将传入的变量私有化暂存在栈中下次使用的时候还是继续使用的上次的结果值
 */
 import (
-	"strings"
 	"fmt"
+	"strings"
 )
 
 
 func add() func (int) int{
-	var x int 
+	var x int
+	fmt.Printf("var X=%#d\n",x)
 	return func (b int )int  {
+	fmt.Printf("x+b=%#d\n",x+b)
 		x+=b
 		return x
 	}
@@ -37,10 +39,10 @@ func suffix(suffixname string) func (string) string  {
 
 func main() {
 	a := add()
-	fmt.Println(a(300))
-	fmt.Println(a(500))
-	fmt.Println(a(600))
-	fmt.Println(a(600))
+	fmt.Printf("a(300):%#d \n",a(300))//+300
+	fmt.Printf("a(500):%#d \n",a(500))//+500
+	fmt.Printf("a(600):%#d \n",a(600))//+600
+	fmt.Printf("a(600):%#d \n",a(600))//+600
 
 
 
