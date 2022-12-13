@@ -1,9 +1,12 @@
 package main
+
 import (
-	calc "../add"
 	"fmt"
+
+	calc "../add"
 )
+
 func main() {
-	sum := calc.Add(200,300)
+	sum := calc.Add(200, 300)
 	fmt.Println(sum)
 }

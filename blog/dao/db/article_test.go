@@ -1,7 +1,7 @@
 package db
 
 import (
-	"go_dev/blog/model"
+	"blog/model"
 	"testing"
 	"time"
 )

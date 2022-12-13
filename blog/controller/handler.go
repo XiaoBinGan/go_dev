@@ -1,8 +1,8 @@
 package controller
 
 import (
+	"blog/service"
 	"github.com/gin-gonic/gin"
-	"go_dev/blog/service"
 	"net/http"
 )
 

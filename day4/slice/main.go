@@ -1,8 +1,8 @@
 package main
 
 import (
-	"sort"
 	"fmt"
+	"sort"
 )
 /*
 	通过切割数组获得切片
@@ -130,7 +130,7 @@ func appendSlice()  {
 func copySlice()  {
 	a1 :=[]int{1,3,5}
 	a2 :=a1						//赋值
-	var a3 = make([]int,3,3)	//创建内存空间 
+	var a3 = make([]int,3,3)	//创建内存空间 长度为3容量为3
 	copy(a3,a1)					//如果a3容量接受不下a1的内容那么切片会自动截断后面的内容舍弃    
 	fmt.Println(a1,a2,a3)
 	a1[0] = 100					//a3相当于拷贝一份a 1的内容所以a1的内容修改了a3并不会受到影响

@@ -1,8 +1,8 @@
 package service
 
 import (
-	"go_dev/blog/dao/db"
-	"go_dev/blog/model"
+	"blog/dao/db"
+	"blog/model"
 )
 //get All articleRecord
 func GetArticleRecordList(pageNum,pageSize int)(articleRecordList []*model.ArticleRecord,err error) {

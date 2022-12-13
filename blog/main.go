@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"go_dev/blog/controller"
-	db "go_dev/blog/dao/db"
+	"blog/controller"
+	db "blog/dao/db"
 )
 
 func init(){

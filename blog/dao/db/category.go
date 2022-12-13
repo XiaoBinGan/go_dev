@@ -2,7 +2,7 @@ package db
 
 import (
 	"github.com/jmoiron/sqlx"
-	"go_dev/blog/model"
+	"blog/model"
 )
 
 /**

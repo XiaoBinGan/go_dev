@@ -1,20 +1,20 @@
 package db
 
 import (
+	"blog/model"
+
 	_ "github.com/go-sql-driver/mysql"
-	"go_dev/blog/model"
 )
 
-
-
-/**
+/*
+*
 InsertArticle insert single article
 */
-func InsertArticle(article *model.ArticleDetail) (articleId int64,err error){
+func InsertArticle(article *model.ArticleDetail) (articleId int64, err error) {
 	//if article == nil {
 	//	return
 	//}
-	sqlstr :=`insert into 
+	sqlstr := `insert into 
 				article(content,summary,title,username,category_id,view_count,comment_count)
 				values(?,?,?,?,?,?,?)`
 	result, err := DB.Exec(sqlstr, article.Content,
@@ -24,20 +24,22 @@ func InsertArticle(article *model.ArticleDetail) (articleId int64,err error){
 		article.CategroyId,
 		article.ViewCount,
 		article.CommmentCount)
-	if err!=nil{
-		 return
+	if err != nil {
+		return
 	}
 	articleId, err = result.LastInsertId()
 	return
 }
-/**
+
+/*
+*
 GetArticleList get article list
 */
-func GetArticleList(pageNum,pageSize int)(articleList []*model.ArticleInfo,err error){
-	if pageNum<0 || pageSize<=0{
+func GetArticleList(pageNum, pageSize int) (articleList []*model.ArticleInfo, err error) {
+	if pageNum < 0 || pageSize <= 0 {
 		return
 	}
-   sqlstr :=`select id,category_id,titleview_count,comment_count,username,status,summary,
+	sqlstr := `select id,category_id,titleview_count,comment_count,username,status,summary,
 			 from article  
 			 where status = 1
 			 order by create_time desc 
@@ -45,19 +47,21 @@ func GetArticleList(pageNum,pageSize int)(articleList []*model.ArticleInfo,err e
 	err = DB.Select(&articleList, sqlstr, pageNum, pageSize)
 	return
 }
-/**
+
+/*
+*
 GetArticleDetail
 */
-func GetArticleDetail(articleID int64)(articleDetail model.ArticleDetail,err error){
-	sqlstr :=`select id,category_id,titleview_count,comment_count,username,status,summary,content
+func GetArticleDetail(articleID int64) (articleDetail model.ArticleDetail, err error) {
+	sqlstr := `select id,category_id,titleview_count,comment_count,username,status,summary,content
 		      from article
 			  where id =? and status = 1`
-	err= DB.Select(&articleDetail, sqlstr, articleID)
+	err = DB.Select(&articleDetail, sqlstr, articleID)
 	return
 }
 
-func GetArticleListByCategoryId(category,pageNum,pageSize int)(articleList []*model.ArticleInfo,err error){
-	sqlstr :=`select id,category_id,titleview_count,comment_count,username,status,summary
+func GetArticleListByCategoryId(category, pageNum, pageSize int) (articleList []*model.ArticleInfo, err error) {
+	sqlstr := `select id,category_id,titleview_count,comment_count,username,status,summary
 				from article
 				where status=1
 				and category_id=?

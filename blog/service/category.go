@@ -2,8 +2,8 @@ package service
 
 import (
 	"fmt"
-	"go_dev/blog/dao/db"
-	"go_dev/blog/model"
+	"blog/dao/db"
+	"blog/model"
 )
 /**
 the GetAKKCateGategoryList service is get all category for categoryListitem
