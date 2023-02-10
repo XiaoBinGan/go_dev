@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Wed Jul 27 13:25:14 2022
+# Make data base, printed on Thu Jan  5 18:59:32 2023
 
 # Variables
 
@@ -27,11 +27,11 @@ NVM_INC = /Users/wujiahao/.nvm/versions/node/v14.17.3/include/node
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/wujiahao/study&demo/GO/package/src/go_dev/day18/e_commerce
+CURDIR := /Users/wujiahao/studydemo/go_dev/day18/e_commerce
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/Users/wujiahao/Library/Application Support/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/Users/wujiahao/Library/Application Support/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/wujiahao/Library/Application Support/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"/Users/wujiahao/Library/Application Support/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"f45d28db2b892ef5d3a7efebc519f640.zh-cn","_translationsConfigFile":"/Users/wujiahao/Library/Application Support/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn/tcf.json","_cacheRoot":"/Users/wujiahao/Library/Application Support/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/wujiahao/Library/Application Support/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn/e8a3071ea4344d9d48ef8a4df2c097372b0c5161","_corruptedFile":"/Users/wujiahao/Library/Application Support/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # makefile
@@ -47,11 +47,11 @@ VSCODE_CWD = /
 # environment
 GOPROXY = https://goproxy.cn,direct
 # environment
-PATH = /usr/local/Cellar/go/1.18.4/libexec/bin:/Users/wujiahao/.nvm/versions/node/v14.17.3/bin:/usr/local/opt/redis@4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin:/Users/wujiahao/application/apache-maven-3.6.1/bin:/Users/wujiahao/Library/Android/sdk/tools:/Users/wujiahao/Library/Android/sdk/platform-tools
+PATH = /usr/local/go/bin:/Users/wujiahao/.nvm/versions/node/v14.17.3/bin:/usr/local/opt/redis@4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin:/Users/wujiahao/application/apache-maven-3.6.1/bin:/Users/wujiahao/Library/Android/sdk/tools:/Users/wujiahao/Library/Android/sdk/platform-tools:/Users/wujiahao/studydemo/GO/package/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin:/Users/wujiahao/application/apache-maven-3.6.1/bin:/Users/wujiahao/Library/Android/sdk/tools:/Users/wujiahao/Library/Android/sdk/platform-tools
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-GOPATH = /Users/wujiahao/study&demo/GO/package
+GOPATH = /Users/wujiahao/studydemo/GO/package
 # environment
 NVM_BIN = /Users/wujiahao/.nvm/versions/node/v14.17.3/bin
 # environment
@@ -61,27 +61,25 @@ ANDROID_HOME = /Users/wujiahao/Library/Android/sdk
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.iiMCmxNXJU/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.zkdObaSDyC/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
-GOBIN = /usr/local/Cellar/go/1.18.4/libexec/bin
-# environment
-PWD = /Users/wujiahao/study&demo/GO/package/src/go_dev/day18/e_commerce
+PWD = /Users/wujiahao/studydemo/go_dev/day18/e_commerce
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-GOMODCACHE = /Users/wujiahao/study&demo/GO/package/pkg/mod
+GOMODCACHE = /Users/wujiahao/studydemo/GO/package/pkg/mod
 # environment
 HOME = /Users/wujiahao
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/wujiahao/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+VSCODE_CODE_CACHE_PATH = /Users/wujiahao/Library/Application Support/Code/CachedData/e8a3071ea4344d9d48ef8a4df2c097372b0c5161
 # environment
 LOGNAME = wujiahao
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 NVM_CD_FLAGS = -q
 # environment
@@ -107,10 +105,11 @@ USER = wujiahao
 # makefile
 .DEFAULT_GOAL := 
 # environment
-GOROOT = /usr/local/Cellar/go/1.18.4/libexec
+GOROOT = /usr/local/go
 # environment
 LESS = -R
 # automatic
+ 
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
@@ -121,7 +120,7 @@ TMPDIR = /var/folders/j0/373ysymn0bg1mdc53th7zqhm0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/wujiahao/Library/Application Support/Code/1.69.2-main.sock
+VSCODE_IPC_HOOK = /Users/wujiahao/Library/Application Support/Code/1.74.2-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -133,7 +132,7 @@ MFLAGS = -Rrqp
 # environment
 NVM_DIR = /Users/wujiahao/.nvm
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.74756825.74756831
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.89230552.89230558
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -163,9 +162,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 31134
+VSCODE_PID = 30193
 # variable set hash-table stats:
-# Load=75/1024=7%, Rehash=0, Collisions=2/96=2%
+# Load=74/1024=7%, Rehash=0, Collisions=2/95=2%
 
 # Pattern-specific Variable Values
 
@@ -247,6 +246,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Wed Jul 27 13:25:14 2022
+# Finished Make data base on Thu Jan  5 18:59:32 2023
 
  

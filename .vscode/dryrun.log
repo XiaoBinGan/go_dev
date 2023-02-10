@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/wujiahao/study&demo/GO/package/src/go_dev'
-make: Leaving directory `/Users/wujiahao/study&demo/GO/package/src/go_dev'
- 
-make: *** No targets specified and no makefile found.  Stop.
-

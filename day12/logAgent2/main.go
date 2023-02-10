@@ -25,7 +25,7 @@ var (
 // 	}
 // }
 	//0.read config file (ini)
-	// cfg,err :=ini.Load("./conf/conf.ini")
+	// cfg,err :=ini.Load("./conf/conf.ini") //相对根目录的地址
 	// if err!=nil{
 	// 	fmt.Printf("load config file failed ,err:%v\n",err)
 	// 	return
